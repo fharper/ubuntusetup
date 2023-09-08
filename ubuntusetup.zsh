@@ -41,6 +41,11 @@ sudo apt remove --purge aisleriot
 # Byobu Terminal
 sudo apt remove --purge byobu
 
+# LibreOffice
+#sudo apt remove --purge libreoffice\* # ZSH
+sudo apt remove --purge 'libreoffice*'
+
+
 ###############
 #             #
 # Final Steps #
