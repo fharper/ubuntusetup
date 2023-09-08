@@ -51,6 +51,9 @@ sudo apt remove --purge gnome-mahjongg
 # Mines
 sudo apt remove --purge gnome-mines
 
+# Remmina
+sudo apt remove --purge 'remmina*'
+
 
 ###############
 #             #
