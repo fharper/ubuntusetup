@@ -29,6 +29,16 @@ sudo apt update
 sudo apt-get install zsh
 
 
+########################
+#                      #
+# Applications Cleanup #
+#                      #
+########################
+
+# AisleRiotSolitaire
+sudo apt remove --purge aisleriot
+
+
 ###############
 #             #
 # Final Steps #
