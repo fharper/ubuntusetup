@@ -38,6 +38,8 @@ sudo apt-get install zsh
 # AisleRiotSolitaire
 sudo apt remove --purge aisleriot
 
+# Byobu Terminal
+sudo apt remove --purge byobu
 
 ###############
 #             #
