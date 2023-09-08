@@ -45,6 +45,9 @@ sudo apt remove --purge byobu
 #sudo apt remove --purge libreoffice\* # ZSH
 sudo apt remove --purge 'libreoffice*'
 
+# Mahjongg
+sudo apt remove --purge gnome-mahjongg
+
 
 ###############
 #             #
