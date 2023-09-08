@@ -77,6 +77,29 @@ sudo apt remove --purge gnome-sudoku
 sudo apt remove --purge 'thunderbird*'
 
 
+################
+#              #
+# Applications #
+#              #
+################
+
+#
+# Docker Desktop
+#
+# Virtualization tool
+#
+# https://www.docker.com
+#
+sudo apt install ca-certificates curl gnupg
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+echo "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt update
+wget https://desktop.docker.com/linux/main/arm64/docker-desktop-4.22.0-arm64.deb -O docker-desktop.deb
+sudo apt install ./docker-desktop.deb
+
+
 ###############
 #             #
 # Final Steps #
