@@ -54,6 +54,9 @@ sudo apt remove --purge gnome-mines
 # Remmina
 sudo apt remove --purge 'remmina*'
 
+# Sudoku
+sudo apt remove --purge gnome-sudoku
+
 
 ###############
 #             #
