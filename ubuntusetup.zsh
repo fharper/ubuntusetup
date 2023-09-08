@@ -48,6 +48,9 @@ sudo apt remove --purge 'libreoffice*'
 # Mahjongg
 sudo apt remove --purge gnome-mahjongg
 
+# Mines
+sudo apt remove --purge gnome-mines
+
 
 ###############
 #             #
