@@ -57,6 +57,9 @@ sudo apt remove --purge 'remmina*'
 # Sudoku
 sudo apt remove --purge gnome-sudoku
 
+# Thunderbird
+sudo apt remove --purge 'thunderbird*'
+
 
 ###############
 #             #
