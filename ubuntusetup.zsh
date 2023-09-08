@@ -13,6 +13,22 @@
 sudo apt update
 
 
+############################
+#                          #
+# Utils to run this script #
+#                          #
+############################
+
+#
+# wget
+#
+# CLI download tool
+#
+# https://www.gnu.org/software/wget/
+#
+sudo apt install wget
+
+
 ###########################
 #                         #
 # Top Helper Applications #
