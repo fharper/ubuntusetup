@@ -59,6 +59,32 @@ function install {
 ############################
 
 #
+# Homebrew + homebrew-cask-versions + brew-cask-upgrade + Casks for Fonts
+#
+# macOS package manager
+# Homebrew dependencies
+# Alternate versions of Homebrew Casks
+# CLI for upgrading outdated Homebrew Casks
+# Casks for Fonts
+#
+# https://github.com/Homebrew/brew
+# https://github.com/Homebrew/homebrew-cask-versions
+# https://github.com/buo/homebrew-cask-upgrade
+# https://github.com/Homebrew/homebrew-cask-fonts
+#
+if [[ "$(isCLAppInstalled brew)" = "false" ]]; then
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') > /home/fharper/.bashrc
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+    sudo apt-get install build-essential
+
+    brew analytics off
+    brew tap homebrew/cask-versions
+    brew tap buo/cask-upgrade
+    brew tap homebrew/cask-fonts
+fi
+
+#
 # wget
 #
 # CLI download tool
