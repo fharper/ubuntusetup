@@ -229,6 +229,17 @@ brew install kubectx
 #
 brew install kubefirst/tools/kubefirst
 
+#
+# mkcert
+#
+# Tool to make local trusted development certificates
+#
+# https://github.com/FiloSottile/mkcert
+#
+brew install mkcert
+mkcert -install
+
+
 ###############
 #             #
 # Final Steps #
