@@ -220,6 +220,15 @@ brew install kubectl
 #
 brew install kubectx
 
+#
+# kubefirst
+#
+# Delivery & infrastructure Kubernetes management gitops platforms
+#
+# https://github.com/kubefirst/kubefirst
+#
+brew install kubefirst/tools/kubefirst
+
 ###############
 #             #
 # Final Steps #
