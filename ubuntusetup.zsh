@@ -211,6 +211,15 @@ brew install k9s
 #
 brew install kubectl
 
+#
+# kubectx & kubens
+#
+# Kubernetes clusters & namespaces switcher
+#
+# https://github.com/ahmetb/kubectx
+#
+brew install kubectx
+
 ###############
 #             #
 # Final Steps #
