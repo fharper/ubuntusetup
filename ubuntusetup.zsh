@@ -166,6 +166,15 @@ if [[ ! $(isAppInstalled wget) ]]; then
     sudo apt install ./docker-desktop.deb
 fi
 
+#
+# xrdp
+#
+# Remote Desktop Protocol Server
+#
+# https://github.com/neutrinolabs/xrdp
+#
+sudo apt install xrdp
+
 
 ###############
 #             #
