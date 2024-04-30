@@ -193,6 +193,15 @@ brew tap civo/tools
 brew install civo
 civo apikey add kubefirst $CIVO_TOKEN
 
+#
+# K9s
+#
+# Kubernetes cluster management from the CLI
+#
+# https://github.com/derailed/k9s
+#
+brew install k9s
+
 ###############
 #             #
 # Final Steps #
