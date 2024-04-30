@@ -202,6 +202,15 @@ civo apikey add kubefirst $CIVO_TOKEN
 #
 brew install k9s
 
+#
+# kubectl
+#
+# Kubernetes CLI
+#
+# https://github.com/kubernetes/kubectl
+#
+brew install kubectl
+
 ###############
 #             #
 # Final Steps #
