@@ -176,6 +176,23 @@ fi
 sudo apt install xrdp
 
 
+###################
+#                 #
+# Developer Stuff #
+#                 #
+###################
+
+#
+# Civo
+#
+# Civo CLI
+#
+# https://github.com/civo/cli
+#
+brew tap civo/tools
+brew install civo
+civo apikey add kubefirst $CIVO_TOKEN
+
 ###############
 #             #
 # Final Steps #
